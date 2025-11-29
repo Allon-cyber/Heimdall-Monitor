@@ -15,7 +15,7 @@ A core feature of Heimdall is its "self-learning" capability. This means that af
 
 1.  Clone the repository:
     ```bash
-    git clone [URL_TO_THIS_REPOSITORY]
+    git clone https://github.com/Allon-cyber/Heimdall-Monitor
     cd Heimdall
     ```
 2.  Create and activate a Python virtual environment (recommended):
