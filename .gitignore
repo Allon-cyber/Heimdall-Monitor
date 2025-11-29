@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.coverage
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Heimdall specific
+data/*.sqlite
+heimdall/models/local_model.pkl
+*.log
+.env

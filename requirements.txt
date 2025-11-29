@@ -1,0 +1,8 @@
+psutil
+scikit-learn
+SQLAlchemy
+pandas
+click
+APScheduler
+python-dotenv
+google-generativeai
