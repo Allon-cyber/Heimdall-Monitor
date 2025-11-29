@@ -18,8 +18,12 @@ A core feature of Heimdall is its "self-learning" capability. This means that af
     git clone [URL_TO_THIS_REPOSITORY]
     cd Heimdall
     ```
-
-2.  Install dependencies:
+2.  Create and activate a Python virtual environment (recommended):
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+3.  Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
@@ -30,7 +34,7 @@ Upon first launch, Heimdall will begin collecting data about your system in the 
 
 1.  Start Heimdall (this will initiate data collection):
     ```bash
-    python -m heimdall.cli # Or 'heimdall' alias after installation
+    python -m heimdall.cli
     ```
 
 2.  After data collection, train the model:
@@ -52,4 +56,3 @@ python -m heimdall.cli --help
 ## Development
 
 We encourage contributions to Heimdall! Feel free to add new data collection modules, improve analysis algorithms, or create new interfaces. Check the files in the `heimdall/` directory.
-# Heimdall-Monitor
