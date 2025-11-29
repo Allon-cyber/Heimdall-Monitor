@@ -16,6 +16,9 @@ else
     echo "Zatwierdzanie zmian z wiadomością: \"$COMMIT_MESSAGE\""
     git commit -m "$COMMIT_MESSAGE"
     
+    echo "Pobieranie najnowszych zmian z GitHub przed wypychaniem..."
+    git pull --rebase origin main
+    
     echo "Wypychanie zmian do GitHub..."
     git push origin main
     
